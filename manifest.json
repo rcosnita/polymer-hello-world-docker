@@ -1,0 +1,6 @@
+{
+  "name": "polymer-hello-world-docker",
+  "short_name": "polymer-hello-world-docker",
+  "start_url": "/",
+  "display": "standalone"
+}
