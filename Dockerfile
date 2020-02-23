@@ -14,3 +14,5 @@ FROM nginx:1.17.8
 WORKDIR /usr/share/nginx/html
 COPY --from=build_frontend /home/example/build/default .
 COPY --from=build_frontend /home/example/manifest.json manifest.json
+
+ADD deployment/files/default.conf /etc/nginx/conf.d/default.conf
